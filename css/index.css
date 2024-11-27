@@ -1,0 +1,39 @@
+body {
+    background-color: #F7ECDE;
+    /* font-family: "Poetsen One", sans-serif; */
+}
+
+main h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+h1:hover::before {
+    height: 60%;
+}
+
+h2 {
+    font-family: "Righteous", cursive;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#3ca55c, #b5ac49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.br-bottom{
+    border-bottom: 3px dotted #352e28;
+}
+.br-top{
+    border-top: 3px dotted #352e28;
+}
